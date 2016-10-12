@@ -1,11 +1,5 @@
-# -*- coding: utf-8 -*-
-"""
-Spyder Editor
 
-This is a temporary script file.
-"""
-
-import pandas as pd
+import pandas as pd #requires pandas
   	
 df = pd.read_csv("~/Desktop/PresTweets1.csv", dayfirst=True, na_values=[" "]) #imports appropriate csv to dataframe
 
